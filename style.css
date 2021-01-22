@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background-color: #DCDCDC;
+}
+
+.content-wrapper {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #004175;
+    border-color: #89DEEF;
+    color: white;
+    font: 20px "Open Sans", serif;
+    border: solid;
+    border-bottom-color: #89DEEF;
+    border-top-color: #004175;
+    border-left-color: #004175;
+    border-right-color: #004175;
+    padding-left: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+
+main {
+    background-color: white;
+    font:
+}
