@@ -1,12 +1,21 @@
 body {
     margin: 0px;
-    background-color: #DCDCDC;
 }
 
-.content-wrapper {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+
+.dogs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog-card {
+    width: 30%;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+.dog-card img {
+    max-width: 100%;
 }
 
 header {
@@ -20,12 +29,55 @@ header {
     border-left-color: #004175;
     border-right-color: #004175;
     padding-left: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 70%;
+   
 }
 
 main {
     background-color: white;
-    font:
+    font: 16px "Open Sans", serif;
+    margin-left: 8%;
+    margin-right: 14%;
+}
+
+.dogs h3 {
+    margin: .4rem;
+}
+
+
+.list-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child-trait-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.child-trait-list li {
+    font-size: 75%;
+    background-color: #89DEEF;
+    border-radius: 35px;
+    width: fit-content;
+    padding: 1px 5px;
+    margin: 3px 3px; 
+}
+
+footer {
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    font: 20px "Oswald", sans-serif;
+}
+
+.footer-box {
+    width: 33%;
+}
+
+footer img {
+    flex: 1 1 auto;
+
 }
