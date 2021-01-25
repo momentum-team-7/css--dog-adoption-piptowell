@@ -32,6 +32,10 @@ header {
    
 }
 
+.header-text {
+    margin-left: 3%;
+}
+
 main {
     background-color: white;
     font: 16px "Open Sans", serif;
